@@ -1,6 +1,6 @@
 # Stop::Words
 
-TODO: Write a gem description
+Simple set of stop words based on [ranks.nl's](http://www.ranks.nl/stopwords) list.
 
 ## Installation
 
@@ -18,7 +18,24 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Get the default list of stop words using:
+
+```ruby
+Stop::Words.default
+```
+
+Get mysql's list of stop words using:
+
+```ruby
+Stop::Words.mysql
+```
+
+Get a longer list of keywords using:
+
+```ruby
+Stop::Words.long
+```
+
 
 ## Contributing
 
