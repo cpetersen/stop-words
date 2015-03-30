@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Stop::Words::VERSION
   spec.authors       = ["Christopher Petersen"]
   spec.email         = ["chris@petersen.io"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Stop words for ruby}
+  spec.summary       = %q{Stop words for ruby}
   spec.homepage      = ""
   spec.license       = "MIT"
 
